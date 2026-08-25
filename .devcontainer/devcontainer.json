@@ -6,7 +6,7 @@
   // Indica qual Dockerfile o VS Code deve usar para CRIAR a imagem.
   // O Dockerfile fica nesta mesma pasta (.devcontainer/Dockerfile).
   "build": {
-    "dockerfile": "E-COMMERCE"
+    "dockerfile": "Dockerfile"
   },
 
   // Abre as portas do container no computador do programador (host):
@@ -30,8 +30,8 @@
       "settings": {
         // Tema e tamanho de fonte: conforto visual (didático, padroniza a turma).
         "workbench.colorTheme": "Dark Modern",
-        "editor.fontSize": 14,
-        "terminal.integrated.fontSize": 14,
+        "editor.fontSize": 20,
+        "terminal.integrated.fontSize": 20,
 
         // Força o Java Language Server a iniciar no modo Standard.
         // Sem isso o Debug (Run/Debug Java) fica bloqueado no modo LightWeight.
