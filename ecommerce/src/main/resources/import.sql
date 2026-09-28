@@ -33,7 +33,7 @@ INSERT INTO item_pedido (quantidade, valor_unitario, pedido_id, produto_id) VALU
 INSERT INTO item_pedido (quantidade, valor_unitario, pedido_id, produto_id) VALUES (1, 1100.00, 4, 4);
 INSERT INTO item_pedido (quantidade, valor_unitario, pedido_id, produto_id) VALUES (2, 80.00, 5, 5);
 
-PAGAMENTO
+
 INSERT INTO pagamento (valor, data, status, tipo, pedido_id) VALUES (2500.00, '2026-09-20 10:05:00', 'AGUARDANDO', 'PIX', 1);
 INSERT INTO pagamento (valor, data, status, tipo, pedido_id) VALUES (4500.00, '2026-09-21 11:35:00', 'APROVADO', 'CARTAO_CREDITO', 2);
 INSERT INTO pagamento (valor, data, status, tipo, pedido_id) VALUES (240.00, '2026-09-22 14:20:00', 'APROVADO', 'PIX', 3);
